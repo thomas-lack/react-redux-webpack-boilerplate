@@ -5,11 +5,11 @@ let path = require('path'),
 	config;
 
 const babelSettings = JSON.parse(fs.readFileSync('.babelrc')),
-	src = path.join(__dirname, '/src/public');
+	src = path.join(__dirname, '/src');
 
 config = {
 	entry: {
-		app: path.join(__dirname, '/src/public/js/index.js'),
+		app: path.join(__dirname, '/src/js/index.js'),
 		vendor: [ 'react', 'redux', 'react-dom', 'react-redux' ]
 	},
 	output: {
