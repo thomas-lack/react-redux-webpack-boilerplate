@@ -1,0 +1,55 @@
+{
+	"parser": "babel-eslint",
+	"plugins": [ "react" ],
+	"parserOptions": {
+		"ecmaFeatures": {
+			"jsx": true
+		}
+	},
+	"env": {
+		"browser": true,
+		"node": true,
+		"es6": true
+	},
+	"rules": {
+		"no-tabs": 0,
+		"indent": [1, "tab", {"SwitchCase": 1}],
+		"max-len": [1, {"code": 105, "ignoreUrls": true}],
+		"no-dupe-args": 2,
+		"no-dupe-keys": 2,
+		"no-duplicate-case": 2,
+		"no-extra-parens": 0,
+		"no-extra-semi": 2,
+		"valid-jsdoc": 1,
+		"quotes": [2, "single"],
+		"jsx-quotes": [2, "prefer-double"],
+		"eqeqeq": 2,
+		"strict": 2,
+		"dot-notation": 2,
+		"no-alert": 2,
+		"no-empty-function": 2,
+		"no-irregular-whitespace": 2,
+		"no-trailing-spaces": 1,
+		"no-whitespace-before-property": 2,
+		"one-var": 0,
+		"no-unexpected-multiline": 1,
+		"no-unused-vars": 2,
+		"no-use-before-define": 2,
+		"no-undefined": 2,
+		"no-undef": 2,
+		"no-unused-expressions": 2,
+		"no-unused-labels": 2,
+		"no-useless-call": 2,
+		"no-useless-concat": 2,
+		"no-useless-escape": 2,
+		"no-useless-return": 2,
+		"no-const-assign": 2,
+		"vars-on-top": 1,
+		"semi": [2, "always"],
+		"react/jsx-uses-react": 2,
+		"react/jsx-uses-vars": 2,
+		"space-unary-ops": 1,
+		"brace-style": [1, "stroustrup"],
+		"keyword-spacing": 1
+	}
+}
