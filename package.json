@@ -1,0 +1,24 @@
+{
+  "name": "react-redux-webpack-boilerplate",
+  "version": "1.0.0",
+  "description": "My personal boilerplate for any react project",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomas-lack/react-redux-webpack-boilerplate.git"
+  },
+  "keywords": [
+    "react",
+    "readux",
+    "webpack"
+  ],
+  "author": "Thomas Lack",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thomas-lack/react-redux-webpack-boilerplate/issues"
+  },
+  "homepage": "https://github.com/thomas-lack/react-redux-webpack-boilerplate#readme"
+}
